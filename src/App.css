@@ -1,0 +1,40 @@
+/* Reset & global */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  /* Gradient background */
+  background-attachment: fixed;
+  padding: 20px;
+  background-color: #74ebd5;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin: 20px 0;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"] {
+  display: block;
+  margin: 10px auto 30px auto;
+  padding: 8px 12px;
+  width: 250px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #74ebd5;
+  box-shadow: 0 0 8px rgba(116, 235, 213, 0.5);
+}

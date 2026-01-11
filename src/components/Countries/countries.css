@@ -1,0 +1,41 @@
+.countries {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+h2,
+h3 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+ul {
+    max-width: 400px;
+    margin: 10px auto;
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    background: white;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.search-box {
+    text-align: center;
+    margin: 20px;
+}
+
+.search-box input {
+    padding: 10px 15px;
+    width: 300px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
